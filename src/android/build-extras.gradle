@@ -4,6 +4,11 @@ android {
     noCompress "lite"
   }
 }
+repositories {
+    google()
+    mavenCentral()
+    maven { url 'https://oss.sonatype.org/content/repositories/snapshots/' }
+}
 dependencies {
     // Tensor flow
     // implementation 'org.tensorflow:tensorflow-lite:0.0.0-nightly'
