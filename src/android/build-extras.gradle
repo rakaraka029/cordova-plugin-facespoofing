@@ -13,5 +13,5 @@ dependencies {
     // Tensor flow
     // implementation 'org.tensorflow:tensorflow-lite:0.0.0-nightly'
     // implementation 'org.tensorflow:tensorflow-lite:0.0.0-nightly-SNAPSHOT'
-    implementation 'org.tensorflow:tensorflow-lite:2.17.0'
+    implementation 'com.google.ai.edge.litert:litert:1.4.0'
 }
